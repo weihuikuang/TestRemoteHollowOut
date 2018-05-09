@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SecondViewController.h"
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
@@ -22,6 +22,7 @@
     self.view.backgroundColor = [UIColor cyanColor];
     UIImageView *imageView =[[UIImageView alloc] initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT)];
     imageView.image = [UIImage imageNamed:@"icon"];
+    imageView.userInteractionEnabled = YES;
     [imageView setBackgroundColor:[UIColor grayColor]];
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRect:imageView.bounds];
     UIBezierPath *holePath = [UIBezierPath bezierPathWithRect:CGRectInset(CGRectMake(50, 100, SCREEN_WIDTH-100, SCREEN_WIDTH-100), 0, 0)];
@@ -32,7 +33,10 @@
     [imageView.layer setMask:mask];
     [self.view addSubview:imageView];
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    SecondViewController *secondVC =[[SecondViewController alloc] init];
+    [self.navigationController pushViewController:secondVC animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
