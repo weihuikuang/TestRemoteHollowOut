@@ -14,6 +14,7 @@
 		201B38A820A2A956008FF847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B38A620A2A956008FF847 /* LaunchScreen.storyboard */; };
 		201B38AB20A2A95A008FF847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B38AA20A2A95A008FF847 /* main.m */; };
 		201B38B320A2CE2D008FF847 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B38B220A2CE2D008FF847 /* SecondViewController.m */; };
+		201B38B620A2D83A008FF847 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B38B520A2D83A008FF847 /* ThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		201B38AA20A2A95A008FF847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		201B38B120A2CE2D008FF847 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		201B38B220A2CE2D008FF847 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		201B38B420A2D83A008FF847 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		201B38B520A2D83A008FF847 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				201B389F20A2A94D008FF847 /* ViewController.m */,
 				201B38B120A2CE2D008FF847 /* SecondViewController.h */,
 				201B38B220A2CE2D008FF847 /* SecondViewController.m */,
+				201B38B420A2D83A008FF847 /* ThreeViewController.h */,
+				201B38B520A2D83A008FF847 /* ThreeViewController.m */,
 				201B38A120A2A951008FF847 /* Main.storyboard */,
 				201B38A420A2A953008FF847 /* Assets.xcassets */,
 				201B38A620A2A956008FF847 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 				201B38A020A2A94E008FF847 /* ViewController.m in Sources */,
 				201B38AB20A2A95A008FF847 /* main.m in Sources */,
 				201B389D20A2A94A008FF847 /* AppDelegate.m in Sources */,
+				201B38B620A2D83A008FF847 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
